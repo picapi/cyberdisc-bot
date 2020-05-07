@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "tag": "Tutorial Introduction",
+      "title": "Welcome to the Cyber Discovery Community Discord Server!",
+      "contentFile": "TutorialStart.md",
+      "options": {
+        "▶": "Role Tutorial: General"
+      }
+    },
+    {
+      "tag": "Role Tutorial: General",
+      "title": "Roles",
+      "contentFile": "TutorialRolesIntro.md",
+      "options": {
+        "\uD83C\uDFC6": "Role Tutorial: Achievement",
+        "\uD83C\uDF82": "Role Tutorial: Elite",
+        "\uD83D\uDC51": "Role Tutorial: Years",
+        "▶": "Channel Tutorial"
+      }
+    },
+    {
+      "tag": "Role Tutorial: Years",
+      "title": "Year Roles",
+      "contentFile": "TutorialRolesYear.md"
+    },
+    {
+      "tag": "Role Tutorial: Achievement",
+      "title": "Achievement Roles",
+      "contentFile": "TutorialRolesAchievement.md"
+    },
+    {
+      "tag": "Role Tutorial: Elite",
+      "title": "Elite Roles",
+      "contentFile": "TutorialRolesElite.md"
+    },
+    {
+      "tag": "Channel Tutorial",
+      "title": "Channels",
+      "contentFile": "TutorialChannels.md",
+      "options": {
+        "\uD83D\uDD12": "Channel Tutorial: Locked",
+        "▶": "Tutorial End"
+      }
+    },
+    {
+      "tag": "Channel Tutorial: Locked",
+      "title": "Restricted Channels",
+      "contentFile": "TutorialChannelsLocked.md"
+    },
+    {
+      "tag": "Tutorial End",
+      "title": "That's it!",
+      "contentFile": "TutorialEnd.md"
+    }
+  ]
+}

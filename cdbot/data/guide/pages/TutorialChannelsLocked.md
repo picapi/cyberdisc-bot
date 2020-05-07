@@ -1,0 +1,1 @@
+Just like roles, there's quite a few channels available for you to use on the server!
