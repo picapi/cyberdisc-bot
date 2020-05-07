@@ -1,5 +1,5 @@
 import os
-
+from discord import ChannelType
 from discord.ext import commands
 from discord.ext.commands import Bot, Cog
 from git import Repo
@@ -73,11 +73,12 @@ class General(Cog):
 
         extra_context = {
             "discord_info": {
-                "Channel": ctx.channel.mention,
                 "User": ctx.author.mention,
                 "Command": ctx.message.content,
             }
         }
+        if ctx.channel.type != ChannelType.private:
+            extra_context["discord_info"]["Channel"] = ctx.channel.mention
 
         if ctx.guild is not None:
             # We are NOT in a DM
