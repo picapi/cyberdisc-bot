@@ -33,6 +33,13 @@ class Guide(Cog):
         '''
         return await self.sendGuide(ctx.message.author,pageid)
 
+    @command()
+    async def tutorial(self, ctx):
+        '''
+        Stars a Tutorial
+        '''
+        return await self.sendGuide(ctx.message.author, "Tutorial Introduction")
+
     async def sendGuide(self,user,pageid):
         pageToShow = self.pages.get(pageid)
         if pageToShow:
